@@ -9,5 +9,24 @@
         android:id="@+id/birthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-condensed-light"
         android:text="Happy Birthday man" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android : android:textColor="@android:color/white"
+        android:text="From: Dad" />
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:src="@drawable/androidparty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
 </RelativeLayout>
